@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# IPL Make Your 11 🏏
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
+IPL Make Your 11 is a simple web application that allows users to create and manage their own cricket team lineup. Users can select players, arrange their playing 11, and manage impact substitutes in an interactive interface.
 
-View your app in AI Studio: https://ai.studio/apps/0b7c53d8-8fd7-4373-81fc-cd8c9d8da9c3
+---
 
-## Run Locally
+##  Features
 
-**Prerequisites:**  Node.js
+* Select and manage teams
+* Drag and drop players into Playing 11
+* Add and manage Impact Substitutes
+* Edit player details (name and category)
+* Delete players from squad
+* Save squad data using local storage
+* Download team details as a text file
+* Reset team to default state
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+##  Technologies Used
+
+* React.js (Frontend)
+* TypeScript
+* Tailwind CSS (Styling)
+* Local Storage (Data persistence)
+
+---
+
+## Project Structure
+
+* `src/` – Main source code
+* `components/` – Reusable UI components
+* `assets/` – Images and static files
+* `types/` – TypeScript types
+* `constants/` – Initial data
+
+---
+
+## How to Run
+
+1. Clone the repository
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+4. Open in browser
+
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+##  Use Case
+
+This project is useful for beginners to understand:
+
+* React component structure
+* State management using hooks
+* Drag and drop functionality
+* Handling user interactions
+
+---
+
+## Future Improvements
+
+* Add player statistics
+* Backend integration for storing data
+* User authentication
+* Team sharing feature
+
+---
+
+## 👤 Author
+
+Puneeth Charan Swargam
+
