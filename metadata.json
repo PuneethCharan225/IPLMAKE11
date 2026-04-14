@@ -1,0 +1,5 @@
+{
+  "name": "IPL Squad Strategist",
+  "description": "A professional dashboard for managing IPL playing 11s, impact subs, and full 25-player squads with drag-and-drop functionality.",
+  "requestFramePermissions": []
+}
